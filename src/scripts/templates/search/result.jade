@@ -1,0 +1,12 @@
+a.result(href=result.get("link"), target="_BLANK")
+  div.app-image
+    img(src=result.get("image"))
+  div.left-info
+    div.name #{result.get("name")}
+    div.category #{result.get("category")}
+    div.price $#{result.get("price")}
+  
+  div.right-info
+    div.rating #{result.get("rating")} stars
+    div.rating-count #{result.get("ratingCount")} votes
+    
